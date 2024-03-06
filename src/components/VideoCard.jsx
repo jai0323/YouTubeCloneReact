@@ -6,6 +6,7 @@ const VideoCard = ({item}) =>{
   {
     title= title.slice(0,50)+"..."; 
   }
+
 return <Container style={{marginBottom:50, height:80}}>
   <Row>
     <Col sm='6'><Card.Img variant="top" src={item.snippet.thumbnails.default.url}/></Col>
